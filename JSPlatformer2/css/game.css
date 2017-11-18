@@ -1,0 +1,33 @@
+.background    { background-image: url(https://pre00.deviantart.net/2031/th/pre/f/2013/185/2/0/alternate_kingdom___w1_castle_background_by_legend_tony980-d6c0a9t.png); 
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url(https://hydra-media.cursecdn.com/totalminer.gamepedia.com/2/27/Lava.png?version%5Cx3d6ec2b1703401405318f8858ae278e3a8);
+				background-size: 20px 20px; }
+.wall          { background-image: url(https://static.brusheezy.com/system/resources/previews/000/016/060/original/cobble-stones-photoshop-patterns.jpg); }
+
+.actor  { position: absolute;  }
+.coin   { background-image: url(https://openclipart.org/image/2400px/svg_to_png/227733/Gold-Coin.png);
+		background-size: 12px 12px; }
+		
+.player { background: rgb(64, 64, 64); }
+
+.boost { background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Green-Up-Arrow.svg/1077px-Green-Up-Arrow.svg.png);
+		  background-size: 20px 20px; }
+
+.enemy { background-image: url(https://lh3.googleusercontent.com/_DSCR-tBNls8RiIj_9q6E456RIkNQJv3CLasdlw5UdsRLdq8id-Hod_jqcbQEzpzPBE=w300);
+		  background-size: 20px 20px; }
+		  
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
